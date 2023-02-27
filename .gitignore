@@ -1,3 +1,7 @@
+airwindows-master.zip
+airwindows-master
+out
+
 # Prerequisites
 *.d
 
@@ -30,3 +34,7 @@
 *.exe
 *.out
 *.app
+
+# OS
+.DS_Store
+desktop.ini
