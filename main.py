@@ -153,6 +153,7 @@ void destroyEffect(EasyAirwindowsAudioEffectX *effect) {
   return out_contents
 
 def delete_sources():
+  print('Deleting original Airwindows sources')
   try:
     os.remove('airwindows-master.zip')
   except FileNotFoundError:
@@ -163,6 +164,7 @@ def delete_sources():
     pass
 
 def delete_outputs():
+  print('Deleting stale output')
   try:
     shutil.rmtree('out')
   except FileNotFoundError:
