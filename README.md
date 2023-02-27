@@ -1,6 +1,6 @@
 # EasyAirwindows
 
-The EasyAirwindows script wraps the popular Airwindows audio effect collection for easy integration with any C++ project, just link an external library, instead of exporting the effects as VST/AU formats.
+The EasyAirwindows script wraps the popular Airwindows audio effect collection for easy integration with any C++ project, just like an external library, instead of exporting the effects as VST/AU formats.
 
 ## Setup
 
