@@ -169,7 +169,6 @@ def delete_outputs():
     pass
 
 def main():
-  '''
   delete_sources()
   delete_outputs()
 
@@ -184,7 +183,6 @@ def main():
 
   os.mkdir('out')
   os.mkdir('out/EasyAirwindows')
-  '''
 
   for glob_filename in glob.glob('airwindows-master/plugins/MacVST/*/source/*.cpp') + glob.glob('airwindows-master/plugins/MacVST/*/source/*.h'):
     print('Processing ' + glob_filename)
@@ -203,7 +201,7 @@ def main():
   with open('out/EasyAirwindows/EasyAirwindowsIndex.cpp', 'w') as outf:
     outf.write(generate_index_file())
 
-  # delete_sources()
+  delete_sources()
 
 if __name__ == '__main__':
   main()
