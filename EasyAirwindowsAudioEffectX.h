@@ -22,6 +22,8 @@
 namespace EasyAirwindows {
 
 static constexpr double __EasyAirwindows_M_PI = 3.14159265358979323846;
+static constexpr double __EasyAirwindows_M_PI_2 = 1.57079632679489661923;
+static constexpr double __EasyAirwindows_M_PI_4 = 0.785398163397448309616;
 
 //
 // Created by Paul Walker on 6/20/22.
