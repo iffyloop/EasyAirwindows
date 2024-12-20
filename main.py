@@ -85,8 +85,6 @@ namespace EasyAirwindows {
   out_contents = replace_class_local_identifier(out_contents, class_id, 'kshortN')
   out_contents = replace_class_local_identifier(out_contents, class_id, 'kshortO')
   out_contents = replace_class_local_identifier(out_contents, class_id, 'kshortP')
-  out_contents = out_contents.replace('M_PI_4', '__EasyAirwindows_M_PI_4')
-  out_contents = out_contents.replace('M_PI_2', '__EasyAirwindows_M_PI_2')
   out_contents = out_contents.replace('M_PI', '__EasyAirwindows_M_PI')
   out_contents = out_contents.replace('kVstMaxProgNameLen', '__EasyAirwindows_kVstMaxProgNameLen')
   out_contents = out_contents.replace('kVstMaxParamStrLen', '__EasyAirwindows_kVstMaxParamStrLen')
